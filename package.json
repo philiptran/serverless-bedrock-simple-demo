@@ -1,0 +1,30 @@
+{
+  "name": "serverless-bedrock-app",
+  "version": "1.0.0",
+  "description": "Serverless application with API Gateway, Lambda, and Claude 3 Haiku on Amazon Bedrock",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "synth": "cdk synth"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "aws-cdk-lib": "^2.189.0",
+    "constructs": "^10.4.2",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.1007.0"
+  }
+}

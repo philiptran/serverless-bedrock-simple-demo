@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude 3 Haiku Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Claude 3 Haiku Chat</h1>
+            <p>Ask a question and get a response from Claude 3 Haiku</p>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages" class="chat-messages">
+                    <div class="message system">
+                        <div class="message-content">
+                            <p>Hello! I'm Claude 3 Haiku. How can I help you today?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-area">
+                    <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+                    <button id="send-button" class="send-button">
+                        <span>Send</span>
+                        <div class="loading-spinner hidden"></div>
+                    </button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Powered by Amazon Bedrock and Claude 3 Haiku</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
